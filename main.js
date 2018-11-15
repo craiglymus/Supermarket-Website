@@ -1,13 +1,6 @@
-// var fruitButton = document.getElementById('fruitButton');
-// fruitButton.addEventListener('click', hideMeatGrains);
-// function hideMeatGrains () {
-// 	var x = document.getElementById('apples');
-//   	if (x.style.display === "none") {
-//         x.style.display = "block";
-//     } else {
-//         x.style.display = "none";
-//     }
-// }
+
+// I AM AWARE THAT THIS CODE IS NOT 'DRY' AT ALL. I ATTEMPTED TO COMPRESS IT 
+// BUT WAS NOT ABLE TO WITHOUT LOSING SOME OF THE FUNCTIONALITY.
 
 
 var fruitButton = document.getElementById('fruitButton');
@@ -97,6 +90,18 @@ function hideFruitMeat () {
   document.getElementById('oatsCart').style.visibility = 'visible';
   document.getElementById('barleyCart').style.visibility = 'visible';
 }
+
+// var fruitButton = document.getElementById('fruitButton');
+// fruitButton.addEventListener('click', hideMeatGrains);
+// function hideMeatGrains () {
+// 	var x = document.getElementById('apples');
+//   	if (x.style.display === "none") {
+//         x.style.display = "block";
+//     } else {
+//         x.style.display = "none";
+//     }
+// }
+
 
 // var grainsButton = document.getElementById('grainsButton');
 // grainsButton.addEventListener('click', hideFruitMeat);

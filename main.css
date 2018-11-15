@@ -112,22 +112,22 @@ ul li {
     padding-right: 12px;
     visibility: hidden;
 }
-
-/*.cart img{
+/*
+.cart img{
     margin-top: 30px;
     margin-left: 50px;
     width: 170px;
     height: 170px;
     animation: 6s slidein 1s ;
     background-color: red;
-}*/
+}
 
-/*@keyframes slidein {
+@keyframes slidein {
   0% {
     margin-left: 0%;
   }
   100% {
-    margin-left: 700%;
+    margin-left: 300%;
   }
 }*/
 
